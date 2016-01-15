@@ -334,7 +334,7 @@
 					armv7s,
 				);
 				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = /tmp/SoundCloudAPI.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -359,7 +359,7 @@
 					"$(ARCHS_STANDARD)",
 					armv7s,
 				);
-				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = /tmp/SoundCloudAPI.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
