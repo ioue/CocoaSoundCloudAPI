@@ -444,7 +444,6 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
-					"-reexport_framework,OAuth2Client",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SoundCloudAPI;
@@ -475,7 +474,6 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
-					"-reexport_framework,OAuth2Client",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SoundCloudAPI;
